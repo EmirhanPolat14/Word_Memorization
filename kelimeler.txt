@@ -1,0 +1,263 @@
+(defter)Worship: İbadet,tapma
+Prayer: Namaz,dua,ibadet
+Leak: Sızıntı,kaçak,sızma
+Ruin: Mahvetmek,harabe,yıkım
+Precious: Değerli,kıymetli
+Deserve: Haketmek
+Improv: Doğaçlama
+Refuse: Reddetmek,çöp,atık
+Blame: Suçlamak
+Blast: Büyük patlama,üfleme
+Sake: Hatır
+Starving: Açlıktan ölme,çok aç
+Yelling: Bağırmak,seslenme
+Dapper: Zarif,şık
+Bring: Getirmek
+Stand-in: Katılmak,vekil,dublör
+Severaly: Şiddetli,ağır,ciddi bir şekilde
+Curfew: Sokağa çıkma yasağı
+Implement: Uygulamak
+Convince: İkna etmek,inandırmak
+Mourning: Yas,matem
+Disturb: Rahatsız etmek,bozmak
+Otherwise: Aksi takdirde, başka, yoksa
+Insist: Israr etmek
+Concerned: Endişeli,ilgili,kaygılı
+Otherwhelmed: Ezilmiş
+Vomit: Kusmuk,kusmak,kusma
+Avoid: Kaçınmak,önlemek,sakınmak
+Lame: Sakatlamak,topal
+Specify: Belirtmek,belirlemek
+Approved: Onaylı
+Throws: Fırlatmak,atmak,atış
+Inspiring: İlham verici
+Wise: Bilge,akıllı
+Permission: İzin,müsade
+Bond: Bağ,tahvil
+Insane: İnanılmaz,deli,çılgın
+Experimental: Deneysel
+Treatment: Tedavi,muamele,işlem
+Strike: Grev,vuruş,çarpmak
+Cradle: Beşik
+Exhibition: Sergi,sergileme,teşhir
+Mystery: Sır,gizem,muamma
+Rid: Kurtulmak,kurtulmuş
+Loiter: Aylak aylak,oyalanmak,sürtmek
+Ordinance: Kararname,yönetmelik,talimatname
+Assignment: Atama,tayin,ödev,görev
+Harvest: Hasat,ürün,harman
+Ancient: Antika,eski
+Frighten: Ürkütmek,korkutmak
+Strive: Çabalamak
+Arrangment: Ayarlama,düzenleme,aranjman
+Noble: Soylu,asil
+Fraigle: Kırılgan,hassas
+Pretend: Numara yapmak
+Sane: Aklı başında,makul
+Definite: Kesin,belirli,kati
+Fussy: Telaşlı,titz,mızmız
+Sail: Denize açılmak,yelken
+Treasure: Hazine,define
+Seagull: Martı
+Allowed: İzin vermek,vermek
+Chase: Takip etmek,kovalamak
+Sustainable: Sürdürülebilir
+Dieatry: Diyet
+Restriction: Kısıtlama,sınırlama
+Continent: Kıta,anakara
+Intention: Niyet,amaç,kasıt
+Porter: Kapıcı,hamal
+Sketch: Eskiz,kroki,taslak
+Guidance: Rehberlik,yönlendirme,kılavuzluk
+Miserable: Acınası,sefil,perişan
+Shelter: Barınak,sığınak
+Snore: Horlama,horultu
+Drop: Düşürmek,düşüş,damla
+Conversation: Konuşma,sohbet,görüşme
+Occur: Meydana gelmek
+Interrupt: Yarıda kesmek,kesmek
+Obliged: Zorunlu,minnettar
+Belong: Ait 
+Individual: Bireysel,tek,kişisel,özel
+Bunk: Ranza,yatak,saçma
+Observation: Gözlem,gözetim,gözetleme,rasat
+Conflict: Çatışma,anlaşmazlık
+Catastrophe: Afet,felaket
+Tough: Sert,zorlu
+Regret: Pişmanlık,üzüntü
+Denomination: Mezhep,ad,nominal değer
+Faith: İnanç,iman,niyet,din
+Blow: Darbe,uçurmak,üfleme
+Relevant: İlgili,uygun
+Ferry: Feribot
+Governor: Vali
+Enrollment: Kayıt,kaydolma
+Substitute: Yerine geçmek,vekil,yedek oyuncu
+Superintendent: Müfettiş,baş komiser,kapıcı
+Variety: Çeşitlilik,çeşit
+Terms: Koşullar,şartlar
+Curiously: Merakla,ilgiyle
+Vested: Kazanılmış
+Grasp: Kavramak,anlamak,yakalamak
+Clue: İpucu,işaret
+Despite: Rağmen,karşın
+Rubbish Dump: Çöp kutusu,çöplük
+Syllable: Hece,hecelemek
+Kindergartners: Anaokulları
+Jabber: Geveze
+Distract: Dikkatini dağıtmak,şaşırtmak
+Wasting: İsraf,boşa harcamak
+Intense: Yoğun,şiddetli,kuvvetli
+Crowd: Kalabalık,topluluk
+Through: Boyunca,sayesinde
+Evidence: Kanıt,delil
+Frankly: Açıkçası,açıkca,doğrusu
+Representative: Temsilci
+Farewell: Veda
+Tribute: Saygı,övgü
+Trauma: Travma
+Lavatory: Lavabo
+Delicate: Hassas,narin
+Instinct: İçgüdü
+Guiede: Rehber,kılavuz
+Missile: Füze,mermi
+Commencement: Diploma töreni,başlangıç
+Encouragment: Teşvik,özendirme
+Enact: Sahnelemek
+Consistently: Sürekli,tutarlı olarak
+Trajectory: Yörünge
+Worth: Değer,eder
+Expectations: Beklenti
+Disappoint: Hayal kırıklığına uğramak
+Healthy as a horse: Turp gibi
+Achieve: Başarmak,ulaşmak
+Spread: Yaymak,bulaştırmak
+Devastated: Harap
+Infant: Bebek,çocuk
+Fold: Katlamak,kat
+Roughhousing: Kaba saba
+Vigilant: Uyanık,tetikte
+Sinking: Batıyor,batma
+Subsidence: Çökme,alçalma
+Borough: İlçe
+Elevation: Yükseklik,yükselti
+Advance: İlerlemek,ilerletmek
+Dispute: Anlaşmazlık,ihtilaf
+Air Pollution: Hava kirliliği
+Prep: Hazırlık
+Sober: Ayık,ölçülü
+Errand: Ayak işi
+Fascinated: Büyülenmiş
+Strict: Sıkı,katı
+Remain: Geriye kalmak,sürdürmek
+Annoying: Sinir bozucu,can sıkıcı,rahatsız edici
+Anniversary: Yıl dönümü
+Chance: Şans,fırsat,tesadüf
+Erupt: Patlamak,püskürmek
+Significant: Anlamlı,önemli,kayda değer
+Liquef: Sıvılaştırmak
+Annex: İlhak edilmek,eklenmek
+Arogance: Kibir,küstahlık
+Coexist: Bir arada var olmak
+Suffering: Acı,cefa
+Lodging: Konaklama,pansiyon
+Appropriot: Uygun,yerinde
+Envelope: Mektup,zarf
+Impression: İzlenim,intibak,etki
+Progressively: Aşamalı olarak, ilerledikçe
+Conclude: Sonuçlandırmak,sonuç çıkartmak
+Writhing: Kıvranma
+Examine: İncelemek,muayne etmek,yoklamak
+Tie: Bağlamak,kravat,beraberlik
+Instead: Yerine
+Struggling: Mücadele etme
+Attract: Cezbetmek,çekmek
+Fewer: Daha az
+Adolescent: Ergen
+Modest: Mütevazi, gösterişsiz
+Foundaiton: Temel,vakıf,fondöten
+Orbit: Yörünge,yörüngede dönmek,rota izlemek,faaliyet sahası
+Eventually: Sonunda,sonuçta,nihayet
+Quaint: Antika,eski ve hoş
+According: Göre
+Shifting: Değişen
+Benath: Altında
+Diverse: Çeşitli,türlü
+Abandon: terketmek,yüzüstü bırakmak
+Ability: Yetenek,beceri
+Able: Yetenekli,yapabilen,gücü yeten
+About: Hakkında,ilgili,konusunda,dair;yaklaşık,takriben
+Above: Üzerinde,üstünde;yukarıda
+Abroad: Yurt dışı,yurt dışında,dışarda
+Absolute: Kesin,salt,mutlak
+Absolutely: Kesinlikle,mutlaka
+Accept: Kabul etmek,kabullenmek,üstlenmek
+Acceptable: Kabul edilebilir,uygun
+Access: Erişme,ulaşma,giriş;bağlamak
+Accident: Kaza,raslantı
+Accommodation: Konaklama,kalacak yer,yatacak yer
+Accompany: Eşlik etmek, refakat etmek,birlikte olmak
+Account: Hesap;açıklamasını yapmak
+Accurate: Kesin,doğru,tam
+Accuse: İtham etmek
+Heading: Başlık,rota
+Raft: Sal;yığın,büyük miktar
+Ceiling: Tavan,iç kaplama;yükseklik sınırı
+Cupboard: Dolap,büfe
+Approach: Yaklaşım,yaklaşma;yaklaşmak,yanaşmak
+Measure: Ölçmek;ölçü,tedbir,önlem
+Suggestion: Öneri,telkin,teklif
+Resolution: Karar,kararlılık;çözünürlük
+Disarmament: Silahsızlanma
+Unanimously: Oybirliğiyle
+Custom: Gelenek,töre;ısmarlama,sipariş üzerine yapılmış
+Whale: Balina,balina avlamak;sert davranmak
+Bead: Boncuk,tane;damla
+Binocular: dürbün
+Plea: Savunma,mazeret
+Obstruction:Engelleme,engel,engel olma
+Classify: Sınıflandırmak,sınıflamak
+Impacts: Etkiler
+Trail: İz,patika
+Squash: Kabak,balkabağı;ezmek
+Distinct: Farklı,ayrı;belirgin
+Fidgeting: Kıpır kıpır
+Aware: Farkında olmak,farkında,haberadar
+Achievement: Başarı,başarma
+Acknowledge: Kabullenmek,onaylamak,tanımak
+Acquire: Elde etmek,edinmek,sonradan kazanmak
+Across: Karşısında;karşıya,karşıdan karşıya
+Act: Davranmak,eylem,fiil,hareket etmek
+Action: Aksiyon,eylem
+Active: Aktif,etkin,etken,faal
+Activity: Faaliyet,etkinlik
+Actor: Aktör,oyuncu,erkek oyuncu
+Actress:Aktör,oyuncu,kadın oyuncu
+Actual: Gerçek,güncel,fiili,asıl,aktüel
+Actually: Aslında,Gerçekten,Gerçekte,fiilen,doğrusu
+Ad: İlan,reklam,duyuru
+Adapt: Adapte olmak,uyarlamak
+Add: Eklemek,katmak
+Addition: Ek,ilave,ekleme,katkı,katılma,eklenti
+Additional: Ek olarak,ek,ilave,ekstra,fazladan
+Address: Adres,hitap etmek,adres yazmak
+Administration: Yönetim,idare
+Admire: Takdir etmek,hayran olmak,beğenmek
+Admit: Kabul etmek,itiraf etmek
+Adult: Yetişkin
+(oxford)Advanced: Gelişmiş, ileri,ilerlemiş
+Orca: Katil balina
+Paddle: Kürek,kürek çekmek
+Net: Net;Ağ,file
+Fin: Yüzgeç
+App: Uygulama
+Interface: Arayüz
+Generate: Oluştur,üretmek
+Blackout: Karartmak,bayılma
+Nonverbal: Sözsüz
+Celebrate: Kutlamak
+Compose: Oluştur,oluşturmak;bestelemek
+Indifference: Kayıtsızlık,ilgisizlik,umursamazlık,aldırmazlık
+Candidate: Aday
+Ancestor: Ata
+Stretch: Uzatmak,germek,uzanmak,esnemek
