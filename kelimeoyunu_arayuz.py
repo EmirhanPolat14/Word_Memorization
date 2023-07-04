@@ -1,24 +1,19 @@
 import sys
-import os
-from PyQt5.QtWidgets import QWidget,QApplication,QLabel,QPushButton,QVBoxLayout,QHBoxLayout,QLineEdit
+from PyQt5.QtWidgets import QWidget, QApplication, QPushButton, QVBoxLayout, QHBoxLayout, QLineEdit
 
-from PyQt5.QtGui import QPixmap, QPalette, QColor, QBrush, QFont
-
-from PyQt5.QtCore import Qt
+from PyQt5.QtGui import QPixmap, QPalette, QBrush, QFont
 
 from PyQt5.QtCore import Qt, QTimer
 
-import requests
-
 import random
-import time
+
 
 class Kelime(QWidget):
     def __init__(self):
 
-         super().__init__()
+        super().__init__()
 
-         self.init_ui()
+        self.init_ui()
 
     def init_ui(self):
 
@@ -30,16 +25,15 @@ class Kelime(QWidget):
         self.setPalette(palette)
 
         self.ing_tr = QPushButton("")
-        self.ing_tr.setFixedSize(100,66)
+        self.ing_tr.setFixedSize(100, 66)
         image_path = "ingg.jpg"
         pixmap = QPixmap(image_path)
         self.ing_tr.setStyleSheet(f"QPushButton {{ background-image: url({image_path}); }}")
         self.ing_tr.setFlat(True)
         self.ing_tr.setShortcut("1")
 
-
         self.tr_ing = QPushButton("")
-        self.tr_ing.setFixedSize(99,66)
+        self.tr_ing.setFixedSize(99, 66)
         image_path2 = "turkkkk.jpg"
         pixmap2 = QPixmap(image_path2)
         self.tr_ing.setStyleSheet(f"QPushButton {{ background-image: url({image_path2}); }}")
@@ -52,26 +46,20 @@ class Kelime(QWidget):
         self.ing_tr.setFont(font1)
         self.tr_ing.setFont(font1)
 
-
         self.soru = QLineEdit()
         self.soru.setReadOnly(True)
-        self.soru.setMinimumSize(380,60)
+        self.soru.setMinimumSize(380, 60)
 
         self.cevap = QLineEdit()
         self.cevap.setVisible(False)
+        self.cevap.setMinimumSize(380, 60)
         self.cevap.setReadOnly(True)
-        self.cevap.setMinimumSize(380,60)
-
 
         font = QFont()
-        #font.setBold(True)
+        # font.setBold(True)
         font.setPointSize(14)
         self.soru.setFont(font)
         self.cevap.setFont(font)
-
-
-
-
 
         h_box = QHBoxLayout()
         h_box.addStretch()
@@ -81,23 +69,27 @@ class Kelime(QWidget):
 
         v_box = QVBoxLayout()
         v_box.addStretch()
-        v_box.addWidget(self.soru,alignment=Qt.AlignCenter)
-        v_box.addWidget(self.cevap,alignment=Qt.AlignCenter)
+        v_box.addWidget(self.soru, alignment=Qt.AlignCenter)
+        v_box.addWidget(self.cevap, alignment=Qt.AlignCenter)
         v_box.addLayout(h_box)
         v_box.addStretch()
-
 
         self.setLayout(v_box)
 
         self.setWindowTitle("Kelime Ezber")
 
-        self.setFixedSize(700,600)
+        self.setMinimumSize(700, 600)
+
 
         self.ing_tr.clicked.connect(self.ingtur)
         self.tr_ing.clicked.connect(self.turing)
 
-    def ingtur(self):
-        sozluk = {}
+        self.kelimecek()
+
+
+
+    def kelimecek(self):
+        self.sozluk = {}
         with open("kelimeler.txt", "r", encoding="utf-8") as file:
             kelime = []
             for i in file:
@@ -106,38 +98,45 @@ class Kelime(QWidget):
                 kelime.append(i)
 
         for i, j in kelime:
-            sozluk[i] = j
+            self.sozluk[i] = j
+
+        self.kelime_sira = random.sample(kelime, len(kelime))
+        print(self.kelime_sira)
+        print(kelime)
 
 
 
-        anahtar = random.choice(list(sozluk.keys()))
-        deger = sozluk[anahtar]
-        self.soru.setText(anahtar)
-        QTimer.singleShot(4000, lambda: self.cevap.setVisible(True))
-        QTimer.singleShot(4000, lambda: self.cevap.setText(deger))
-        self.cevap.setVisible(False)
+    def kelimeyukle(self):
+        if len(self.kelime_sira) == 0:
+            self.kelimecek()
+
+        kelime = self.kelime_sira.pop(0)
+        self.anahtar = kelime[0]
+        self.deger = kelime[1]
+        self.uzunluk = len(self.deger)
+
+    def ingtur(self):
+        self.kelimeyukle()
+        if self.uzunluk * 14 > 380:
+            self.cevap.setMinimumSize(14 * self.uzunluk + 380, 60)
+        else:
+            self.cevap.setMinimumSize(380, 60)
+            self.soru.setText(self.anahtar)
+            QTimer.singleShot(4000, lambda: self.cevap.setVisible(True))
+            QTimer.singleShot(4000, lambda: self.cevap.setText(self.deger))
+            self.cevap.setVisible(False)
+
 
     def turing(self):
-        sozluk = {}
-        with open("kelimeler.txt", "r", encoding="utf-8") as file:
-            kelime = []
-            for i in file:
-                i = i.strip()
-                i = i.split(":")
-                kelime.append(i)
-
-        for i, j in kelime:
-            sozluk[i] = j
-
-        anahtar = random.choice(list(sozluk.keys()))
-        deger = sozluk[anahtar]
-        self.soru.setText(deger)
+        self.kelimeyukle()
+        if self.uzunluk * 14 > 380:
+            self.soru.setMinimumSize(14 * self.uzunluk + 380, 60)
+        else:
+            self.soru.setMinimumSize(380, 60)
+        self.soru.setText(self.deger)
         QTimer.singleShot(4000, lambda: self.cevap.setVisible(True))
-        QTimer.singleShot(4000, lambda: self.cevap.setText(anahtar))
+        QTimer.singleShot(4000, lambda: self.cevap.setText(self.anahtar))
         self.cevap.setVisible(False)
-
-
-
 
 
 app = QApplication(sys.argv)
